@@ -1,0 +1,13 @@
+// sample.nt
+
+define increment(x: int): int {
+  add-int(x, 1)
+}
+
+define my-add(x: int, y: int): int {
+  add-int(x, y)
+}
+
+define main(): unit {
+  print-int(my-add(10, increment(10))) // # => 21
+}
