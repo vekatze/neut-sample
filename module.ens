@@ -1,12 +1,14 @@
 {
   target {
-    sample "sample.nt",
+    sample {
+      main "sample.nt",
+    },
   },
   dependency {
     core {
-      digest "K6QppYHp0YNA4P0lptmp4hV10E9gEZsybeuyekLGCuo",
+      digest "OFjMSEj_TlNUOGBp3-r8HinLhYPsu4xkChTgd91RQt0",
       mirror [
-        "https://github.com/vekatze/neut-core/raw/main/archive/0-47-2.tar.zst",
+        "https://github.com/vekatze/neut-core/raw/main/archive/0-48-3.tar.zst",
       ],
       enable-preset true,
     },
