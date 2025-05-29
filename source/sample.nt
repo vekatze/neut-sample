@@ -1,5 +1,5 @@
 import {
-  core.text.io {print-int},
+  core.int.show {show-int},
 }
 
 define increment(x: int): int {
@@ -11,5 +11,5 @@ define my-add(x: int, y: int): int {
 }
 
 define main(): unit {
-  print-int(my-add(10, increment(10)))
+  printf("{}\n", [show-int(my-add(10, increment(10)))])
 }
