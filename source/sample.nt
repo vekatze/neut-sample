@@ -2,14 +2,14 @@ import {
   core.int.io {print-int},
 }
 
-define increment(x: int): int {
+define increment(x: int) -> int {
   add-int(x, 1)
 }
 
-define my-add(x: int, y: int): int {
+define my-add(x: int, y: int) -> int {
   add-int(x, y)
 }
 
-define main(): unit {
+define main() -> unit {
   print-int(my-add(10, increment(10)))
 }
