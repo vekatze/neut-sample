@@ -1,5 +1,5 @@
 import {
-  core.int.io {print-int},
+  core::int.io {print-int},
 }
 
 define increment(x: int) -> int {
